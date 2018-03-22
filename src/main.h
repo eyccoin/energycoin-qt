@@ -41,7 +41,7 @@ static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 static const int POW_CUTOFF_BLOCK = 9000000;
 static const int POS_START_BLOCK  = 9000000;
 //#1
-static const int64 GENESIS_BLOCK_TIME = 1521179352;
+static const int64 GENESIS_BLOCK_TIME = 1521686606;
 static const int64 EVERY_YEAR_TIME = 31536000;
 static const int64 COIN_YEAR_REWARD = 30000 * CENT;
 
@@ -56,7 +56,7 @@ static const int fHaveUPnP = false;
 #endif
 
 //#1
-static const uint256 hashGenesisBlockOfficial("0x0000b17574cf6066df27c587cf87ea7af8b2e56f0e72cdadf8dc032a26dd5815");
+static const uint256 hashGenesisBlockOfficial("0x00004cfff01138e66c5c94fffd3965e0ef33a6fa9c754b92d5800df1bcaaa262");
 static const uint256 hashGenesisBlockTestNet ("0x00008d4aef500c1d31168e4f5897dc1df8fd67bea76a3487dbb9aaf62234a822");
 
 static const int64 nMaxClockDrift = 2 * 60 * 60;        // two hours

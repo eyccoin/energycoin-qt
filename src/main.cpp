@@ -2615,7 +2615,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         // Genesis block
         //#1
-        const char* pszTimestamp = "EnergyCoin(ENC) created by SMITH 2018/03/10";
+        const char* pszTimestamp = "EnergyCoin(ENC) created by ENC TEAM 2018/03/20";
         CTransaction txNew;
         txNew.nTime = nChainStartTime;
         txNew.vin.resize(1);
@@ -2663,7 +2663,7 @@ bool LoadBlockIndex(bool fAllowNew)
        // printf("block.nNonce = %u \n", block.nNonce);
 		block.print();
         //#1
-        assert(block.hashMerkleRoot == uint256("0xdd92bb96829f59700e183c5563aa4dbf6ca10c1b968e8a7420b71948b35cc6c8"));
+        assert(block.hashMerkleRoot == uint256("0x8438faec04ca2bb9cfeb3b6dd2c3e5110d90738976ce60153be4c5841310213b"));
 		assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
 			//printf("nonce=%u hashGenesisNew=%s target=%s\n",block.nNonce, hashGenesisNew.ToString().c_str(),bnProofOfWorkLimit.getuint256().ToString().c_str());
        
